@@ -1,0 +1,18 @@
+o1s:
+  Vendor: Samsung
+  PrettyName: Galaxy S21 5G (G991B/DS)
+  DeviceType: handheld
+  SupportedOrientations:
+    - Portrait
+    - InvertedPortrait
+    - Landscape
+    - InvertedLandscape
+  PrimaryOrientation:
+    - Portrait
+  LomiriInteractiveBlur:
+    - true
+  NumBuiltInDisplays: 1
+  BacklightSysfsPath:
+    - /sys/class/backlight/panel0-backlight
+  FlashlightSysfsPath:
+    - /sys/class/leds/torch-sec1/brightness

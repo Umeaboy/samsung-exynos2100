@@ -1,0 +1,4 @@
+overlay filter=lfs diff=lfs merge=lfs -text
+build.sh filter=lfs diff=lfs merge=lfs -text
+deviceinfo filter=lfs diff=lfs merge=lfs -text
+Dockerfile filter=lfs diff=lfs merge=lfs -text
