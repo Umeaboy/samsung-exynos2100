@@ -1,3 +1,19 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3c29e36e8acbdbffa2e123d1ee55969ac5b0e6334cf559aa7a6a8c27348f27db
-size 759
+deviceinfo_name="Galaxy S21 5G (G991B/DS)"
+deviceinfo_manufacturer="Samsung"
+deviceinfo_codename="o1s"
+deviceinfo_arch="aarch64"
+deviceinfo_kernel_source="https://github.com/Umeaboy/android_kernel_samsung_exynos2100.git"
+deviceinfo_kernel_source_branch="halium-11.0"
+deviceinfo_kernel_defconfig="exynos2100-o1sxxx_defconfig halium.config"
+deviceinfo_kernel_clang_compile="true"
+deviceinfo_kernel_llvm_compile="true"
+deviceinfo_kernel_image_name="Image"
+deviceinfo_ramdisk_compression="lz4"
+deviceinfo_bootimg_qcdt="false"
+deviceinfo_bootimg_header_version="3"
+deviceinfo_bootimg_partition_size="67108864"
+deviceinfo_bootimg_os_version="11"
+deviceinfo_bootimg_os_patch_level="2024-02"
+deviceinfo_halium_version="11"
+deviceinfo_rootfs_image_sector_size="4096"
+deviceinfo_ubuntu_touch_release="focal"
