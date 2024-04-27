@@ -1,3 +1,10 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:62fc0a018398ef3f68986f38506d7b4c914e1470e5d077345b889b3e1f686cf4
-size 441
+#!/bin/bash
+set -xe
+
+export PLATFORM_VERSION=11
+export ANDROID_MAJOR_VERSION=s
+export TARGET_SOC=exynos2100
+export LLVM_IAS=1
+
+[ -d build ] || git clone https://gitlab.com/ubports/community-ports/halium-generic-adaptation-build-tools -b halium-11 build
+./build/build.sh "$@"
